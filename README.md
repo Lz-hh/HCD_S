@@ -61,6 +61,27 @@ id,sentence1,sentence2,score
 1,"Chinese text A","Chinese text B",4.0
 2,"Chinese text A","Chinese text B",1.0
 
-Data Availability
+```
+## Annotation Example
+
+### Score 3
+
+Text A:
+夜景人像糊成鬼？三脚架不是唯一选择！教你手持拍出清晰夜景：开大光圈到F1.8，ISO调到1600，快门速度控制在1/50秒以上，再让模特稍微靠墙借力，成片率直接翻倍！
+
+Text B:
+晚上拍照总是一团黑？试试手机夜景模式的黑科技！打开专业模式，手动拉高阴影，降低高光，再用夜景算法合成，瞬间提亮暗部细节。记得让人物站在有光源的地方，皮肤都会发光哦！
+
+Rationale: Both texts discuss night portrait photography but focus on different technical approaches, corresponding to a moderate similarity level.
+
+### Score 5
+
+Text A:
+眼霜是不是智商税？我觉得真不是！尤其是过了25岁，眼部细纹、黑眼圈都来了，用对眼霜能明显改善。选的时候看成分，像胜肽、维A醇这些，坚持用才有效果，别指望涂一两天就见效啊。
+Text B:
+眼霜到底是不是智商税？我个人认为不是的。特别是25岁以后，眼部问题像细纹、黑眼圈会出现，合适的眼霜很有帮助。关键要选含有效成分如胜肽或维A醇的产品，并且需要持续使用才能看到效果，不能急于求成。
+Rationale: Both texts express nearly identical claims about eye cream, age-related concerns, key ingredients, and the need for continued use, with differences mainly in wording.
+
+## Data Availability
 
 The HCD_S dataset will be available from the corresponding author upon reasonable request. This repository is anonymized during double-blind review.
